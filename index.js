@@ -31,8 +31,9 @@ function currentLine(array){
     return "The line is currently empty."
   } else {
     var name = array[i];
-    var position = (array.indexOf(name)) + ". "
+
       for( var i = 0; i < array.length; i++){
+      var position = (array.indexOf(name)) + ". "
       return "The line is currently: " + position + name + ", "
 
     }
