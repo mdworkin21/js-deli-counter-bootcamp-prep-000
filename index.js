@@ -27,11 +27,10 @@ function nowServing(array){
 //Third Task
 
 function currentLine(array){
-  var deliLine = [];
-  if (array.length === 0){
+    if (array.length === 0){
     return "The line is currently empty."
   } else {
-      for( var i = 0; i < deliLine.length; i++){
+      for( var i = 0; i < array.length; i++){
       var name = array[i];
       var position = (i + 1) + ". "
       return "The line is currently: " + position + name + ", "
