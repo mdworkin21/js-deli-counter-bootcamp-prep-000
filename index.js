@@ -32,8 +32,9 @@ function currentLine(array){
   } else {
       //for( var i = 0; i < array.length; i++){
       var i = 0
+      var n = i + 1
       var name = array[i];
-      var position = (array[i] + 1) + ". "
+      var position = n + ". "
       while(i < array.length)
       return "The line is currently: " + position + name + ", "
 
