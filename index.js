@@ -27,6 +27,7 @@ function nowServing(array){
 //Third Task
 
 function currentLine(array){
+  var deliLine = [];
   if (array.length === 0){
     return "The line is currently empty."
   } else {
