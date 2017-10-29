@@ -32,8 +32,8 @@ function currentLine(array){
   } else {
       for( var i = 0; i < array.length; i++){
       var name = array[i];
-      //var position = array.indexOf(array.length) + ". "
-      return "The line is currently: " + array.length + name + ", "
+      var position = array.length + ". "
+      return "The line is currently: " + position + name + ", "
 
     }
   }
