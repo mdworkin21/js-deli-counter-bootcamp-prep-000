@@ -33,7 +33,7 @@ function currentLine(array){
       for( var i = 0; i < array.length; i++){
       var name = array[i];
       //var position = console.log((array.indexOf(name) + 1)) + ". "
-      return "The line is currently: " + console.log(array.indexOf(name) + ". ") + name + ", "
+      return "The line is currently: " + console.log(array[i] + ". ") + name + ", "
 
     }
   }
