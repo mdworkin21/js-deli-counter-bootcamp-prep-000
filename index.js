@@ -43,5 +43,6 @@ function currentLine(array){
 
     }
 
-  return "The line is currently: " + line
+
+}return "The line is currently: " + line
 }
