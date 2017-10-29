@@ -33,7 +33,7 @@ function currentLine(array){
       var line = []
       for( var i = 0; i < array.length; i++){
           var position = (i+ 1) + ". " + array[i];
-          line.push(position + " ")
+          line.push(" " + position)
         }
 
     }
